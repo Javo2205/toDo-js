@@ -99,6 +99,7 @@ ulFiltros.addEventListener('click', (event) => {
                 break;
         
             default:
+                    elemento.classList.remove('hidden');
                 break;
         }
     }
